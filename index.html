@@ -9,14 +9,9 @@
   <link rel="stylesheet" href="css/style.css">
   <!-- Link Normalize Css file -->
   <link rel="stylesheet" href="css/normalize.css">
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap"
-    rel="stylesheet">
   <!-- Font Awesome Css File -->
   <link rel="stylesheet" href="/css/all.min.css">
-  <title>Template 1 - Leon</title>
+  <title>Pretty - Landing Page</title>
 </head>
 
 <body>
@@ -26,7 +21,9 @@
     <div class="container">
 
       <!-- Leon logo -->
-      <img class="logo" src="img/logo.png" alt="Logo">
+      <a class="logo" href="./index.html">
+        <span class="pLetter">P</span><span class="rLetter">RETTY</span>
+      </a>
 
       <!-- Links -->
       <div class="list">
@@ -38,6 +35,7 @@
 
         <!-- Links -->
         <ul class="links">
+          <li><a href="#features">Features</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#about">About</a></li>
@@ -54,12 +52,13 @@
     <section class="welcome">
       <div>
         <h1>Hello There</h1>
-        <p>We are Leon - Super Creative & Minimal Agency Web Template</p>
+        <p>We are Pretty, A Super Creative & Minimal Agency Web Template</p>
       </div>
+      <img src="./img/mountains.jpg" alt="mountain">
     </section>
 
     <!-- Features -->
-    <section class="features">
+    <section class="features" id="features">
       <div class="container">
 
         <!-- Features -->
@@ -82,7 +81,7 @@
     </section>
 
     <!-- Services -->
-    <section class="services">
+    <section class="services" id="services">
       <div class="container">
         <h2 class="special-h">Services</h2>
         <p>Don't be busy, be productive</p>
@@ -136,7 +135,7 @@
     </section>
 
     <!-- Portfolio -->
-    <section class="portfolio">
+    <section class="portfolio" id="portfolio">
       <div class="container">
         <h2 class="special-h">Portfolio</h2>
         <p>If you do it right, it will last forever.</p>
@@ -144,21 +143,27 @@
         <!-- Projects -->
         <div class="projects">
           <div class="pro">
-            <img src="img/1jpg.jpg" alt="">
+            <div class="img-con">
+              <img src="img/1jpg.jpg" alt="">
+            </div>
             <div class="info">
               <h3>Project Here</h3>
               <p>My creative ability is very difficult to measure because it can manifest in so many surprising.</p>
             </div>
           </div>
           <div class="pro">
-            <img src="img/2.jpg" alt="">
+            <div class="img-con">
+              <img src="img/2.jpg" alt="">
+            </div>
             <div class="info">
               <h3>Project Here</h3>
               <p>My creative ability is very difficult to measure because it can manifest in so many surprising.</p>
             </div>
           </div>
           <div class="pro">
-            <img src="img/3.jpg" alt="">
+            <div class="img-con">
+              <img src="img/3.jpg" alt="">
+            </div>
             <div class="info">
               <h3>Project Here</h3>
               <p>My creative ability is very difficult to measure because it can manifest in so many surprising.</p>
@@ -168,7 +173,7 @@
     </section>
 
     <!-- About Section -->
-    <section class="about">
+    <section class="about" id="about">
       <div class="container">
         <h2 class="special-h">About</h2>
         <p>Less is more work</p>
@@ -191,7 +196,7 @@
     </section>
 
     <!-- Contact -->
-    <section class="contact">
+    <section class="contact" id="contact">
       <div class="container">
         <h2 class="special-h">Contact</h2>
         <p>We are born to create</p>
@@ -210,9 +215,10 @@
     </section>
   </main>
 
-  <footer>
-    © 2021 <span>Leon</span> All Right Reserved
+  <footer id="footer">
   </footer>
+
+  <script src="./js/main.js"></script>
 </body>
 
 </html>
