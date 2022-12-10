@@ -17,8 +17,7 @@ A Landing Page of multiple sections, with responsive design and using Some great
 ![leon](https://github.com/AbdulrahmanIsmael/Leon-Project/blob/main/screenshots/5.png)
 ![leon](https://github.com/AbdulrahmanIsmael/Leon-Project/blob/main/screenshots/6.png)
 
-<br>
-<hr>
+---
 
 ## 🚀 About Me
 I'm a front End developer, I have the ability to build interactive, responsive and Organized Websites.
