@@ -114,6 +114,7 @@ header .container {
 /* TODO:Header style */
 
 header {
+  position : fixed;
   background-color: #e5b8f4;
   height: 64px;
   box-shadow: 0px 3px 10px #eee;
