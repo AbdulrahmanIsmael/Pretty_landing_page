@@ -218,6 +218,37 @@
   <footer id="footer">
   </footer>
 
+  <!-- For Call -->
+  <div id="call">
+    <form>
+      <legend>Request For Call</legend>
+      <div>
+        <label for="name">Your Name</label>
+        <input type="text" name="name" id="name">
+      </div>
+
+      <div>
+        <label>Your Phone Number</label>
+
+        <div class="phone">
+          <input type="text" name="country code" value="+20" maxlength="3">
+          <p>-</p>
+          <input type="text" name="num1" maxlength="3">
+          <p>-</p>
+          <input type="text" name="num2" maxlength="4">
+          <p>-</p>
+          <input type="text" name="num3" maxlength="4">
+        </div>
+      </div>
+
+      <textarea name="message" id="msg" cols="30" rows="5" placeholder="Write a message for us..."></textarea>
+
+      <input type="submit" value="Send The Request" id="submit">
+    </form>
+
+    <button id="show"><i class="fa-solid fa-phone"></i></button>
+  </div>
+
   <script src="./js/main.js"></script>
 </body>
 

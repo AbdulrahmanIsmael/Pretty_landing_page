@@ -3,6 +3,8 @@ const navLinks = document.querySelectorAll(".links > li");
 const list = document.querySelector(".list");
 const links = document.querySelector(".links");
 const footer = document.getElementById("footer");
+const call = document.getElementById("call");
+const reqCall = document.getElementById("show");
 
 listItemHref();
 function listItemHref() {
@@ -27,4 +29,12 @@ function copyright() {
   const currentYear = new Date().getFullYear();
 
   footer.innerHTML = `© ${currentYear} <span>Leon</span> All Right Reserved`;
+}
+
+showReq();
+
+function showReq() {
+  reqCall.addEventListener("click", () => {
+    call.classList.toggle("req");
+  });
 }
