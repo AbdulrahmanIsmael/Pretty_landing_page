@@ -1,6 +1,6 @@
 # Leon Landing Page
 
-A Landing Page of multiple sections, with responsive design and using Some great CSS Skills
+A Landing Page consists of multiple sections, follows the best practices of using semantic tags, high-performing and seamless design.
 
 ## Tools
 
